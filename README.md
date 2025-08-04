@@ -1,23 +1,17 @@
 # Database Design and Implementation on Web 
 This course is built around a fully AI-driven workflow—leveraging large language models at every stage of the semester to guide design, implementation, debugging, and reflection on the culminating “Database Integration on Web” project.
 
-1. AI as the Primary “Pair Programmer”
+**1. AI as the Primary “Pair Programmer”**
 From Day 1, students learn how to structure effective prompts to LLMs (e.g., ChatGPT, Bard, Copilot) to:
+1. Generate database schemas—prompting for normalized table definitions, primary/foreign keys, and access-control constraints.
+2. Craft SQL queries—from simple CRUD to complex joins and transactions, students iteratively refine prompts and validate AI-suggested SQL against SQLite.
+3. Scaffold back-end endpoints—using AI to produce Node.js route handlers that execute queries and enforce business rules (e.g., forbidding dual enrollment in CSI-300-01 and CSI-300-02) Project_3.
 
-Generate database schemas—prompting for normalized table definitions, primary/foreign keys, and access-control constraints.
-
-Craft SQL queries—from simple CRUD to complex joins and transactions, students iteratively refine prompts and validate AI-suggested SQL against SQLite.
-
-Scaffold back-end endpoints—using AI to produce Node.js route handlers that execute queries and enforce business rules (e.g., forbidding dual enrollment in CSI-300-01 and CSI-300-02) Project_3.
-
-2. AI-Facilitated Learning Modules
+**2. AI-Facilitated Learning Modules**
 Instead of traditional lectures, each week begins with an AI-moderated Q&A “studio” where students:
-
-Pose design or implementation questions to an LLM.
-
-Compare multiple model responses for correctness and style.
-
-Critically evaluate and refine AI output—learning to detect subtle logic errors (e.g., missing ON DELETE CASCADE clauses).
+1. Pose design or implementation questions to an LLM.
+2. Compare multiple model responses for correctness and style.
+3. Critically evaluate and refine AI output—learning to detect subtle logic errors (e.g., missing ON DELETE CASCADE clauses).
 
 These exercises sharpen both database knowledge and “prompt engineering” skills.
 
