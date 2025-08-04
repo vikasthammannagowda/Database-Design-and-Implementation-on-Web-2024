@@ -13,40 +13,29 @@ Instead of traditional lectures, each week begins with an AI-moderated Q&A “st
 2. Compare multiple model responses for correctness and style.
 3. Critically evaluate and refine AI output—learning to detect subtle logic errors (e.g., missing ON DELETE CASCADE clauses).
 
-These exercises sharpen both database knowledge and “prompt engineering” skills.
+*These exercises sharpen both database knowledge and “prompt engineering” skills.*
 
-3. AI-Guided Project Milestones
+**3. AI-Guided Project Milestones**
 At each project milestone (schema draft, CRUD prototype, UI integration), students:
+1. Submit their AI-generated code snippets alongside their own edits.
+2. Annotate differences—explaining where AI was helpful and where manual correction was required.
+3. Peer-review classmates’ AI-interactions, giving feedback on prompt clarity and solution quality.
 
-Submit their AI-generated code snippets alongside their own edits.
+*This continuous integration of AI into version control builds confidence in trusting—and verifying—LLM suggestions.*
 
-Annotate differences—explaining where AI was helpful and where manual correction was required.
-
-Peer-review classmates’ AI-interactions, giving feedback on prompt clarity and solution quality.
-
-This continuous integration of AI into version control builds confidence in trusting—and verifying—LLM suggestions.
-
-4. AI-Powered Debugging Labs
+**4. AI-Powered Debugging Labs**
 Weekly “debugathons” pair students with an LLM to troubleshoot:
+1. Schema normalization issues (1NF→3NF).
+2. Failing SQL constraints or index performance.
+3. Front-end–back-end mismatches in React/Node.js data flows.
+4. Students learn to craft minimal reproducible examples and use AI to step through stack traces.
 
-Schema normalization issues (1NF→3NF).
+**5. AI in Assessment & Reflection**
+1. Intermediate deliverables consist of AI-assisted SQL scripts; teams cite the prompts they used.
+2. Final group submission includes AI-refined React components and server code.
+3. Individual reflections ask explicitly: “Describe your experience interacting with AI to assist with code generation.”
 
-Failing SQL constraints or index performance.
+*This ensures students critically assess how AI shaped their development process.*
 
-Front-end–back-end mismatches in React/Node.js data flows.
-
-Students learn to craft minimal reproducible examples and use AI to step through stack traces.
-
-5. AI in Assessment & Reflection
-Intermediate deliverables consist of AI-assisted SQL scripts; teams cite the prompts they used.
-
-Final group submission includes AI-refined React components and server code.
-
-Individual reflections (600+ words) ask explicitly:
-
-“Describe your experience interacting with AI to assist with code generation.” Project_3
-
-This ensures students critically assess how AI shaped their development process.
-
-6. Ethical Boundaries & Academic Integrity
+**6. Ethical Boundaries & Academic Integrity**
 While AI is freely permitted for all coding tasks, the use of AI to draft the user guide or individual reflection report is strictly prohibited. Any such misuse incurs an automatic F on the project Project_3. This clear demarcation teaches responsible, contextualized AI use.
